@@ -24,6 +24,7 @@ public class ComputeCheckDigit {
 		
  		long x = (10- (a*3 + b + c*3 + d + e *3 + f + g *3 + h + i*3 + j  + k*3) % 10) % 10;
  		System.out.println("x = "+x );
+        System.out.println("Hello");
 		
 	}
 }	
